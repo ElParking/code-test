@@ -1,18 +1,18 @@
 Sugerencia de presentación
 ========================
 
-Pantalla inicial
-------------------------
-![Sugerencia de presentación 1](http://front-end/1.png)
+# Pantalla inicial
 
-Pregunta
-------------------------
-![Sugerencia de presentación 2](http://front-end/2.png)
+<p align="center"><img src="1.png" /></p>
 
-Solución
-------------------------
-![Sugerencia de presentación 3](http://front-end/3.png)
+# Pregunta
 
-Restulados finales
-------------------------
-![Sugerencia de presentación 4](http://front-end/4.png)
+<p align="center"><img src="2.png" /></p>
+
+# Solución
+
+<p align="center"><img src="3.png" /></p>
+
+# Restulados finales
+
+<p align="center"><img src="4.png" /></p>
