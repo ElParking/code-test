@@ -1,6 +1,6 @@
 Prueba de código para Frontend
 ==================================
-La prueba de código consiste en crear una web-app sencilla con solo front-end, cero back-end. Aqui puedes ver con una propuesta de diseño para la web-app. (https://github.com/ElParking/code-test/font-end/sample-designs.md)
+La prueba de código consiste en crear una web-app sencilla con solo front-end, cero back-end. Aqui puedes ver con una propuesta de diseño para la web-app. (https://github.com/ElParking/code-test/blob/master/font-end/sample-designs.md)
 
 Funcionalidades
 =================
