@@ -25,8 +25,9 @@ Tecnologías
 ==============
 - CSS: Usar algun tipo de preprocesador de CSS y organizar el código css como si esto fuera el inicio de un proyecto más grande.
 - Javascript: Lo ideal es usar React+Redux como framework base (es en lo que trabajamos en ElParking). Al igual que con el CSS, pensar en esto como si fuera el inicio de algo más grande. 
-- Javascript: recomendable seguir el nuevo estandard de Javascript ES6
-- Uso de "module bundler": En ElParking usamos Webpack, pero se puede usar cualquiera. 
+- Javascript: Recomendable seguir el nuevo estandard de Javascript ES6
+- Javascript: Recomendable utilizar React 16
+- Te recomendamos que para el ejercio uses el Create React App
 - Sube el código desde el inicio a un repositorio de Github/Bitbucket para que luego podamos ver los commits y la evolución.
 
 Notas
