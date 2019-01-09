@@ -1,18 +1,21 @@
 Sugerencia de presentación
 ========================
 
-# Pantalla inicial
+### Pantalla inicial
 
 <p align="center"><img src="1.png" /></p>
 
-# Pregunta
+
+### Pregunta
 
 <p align="center"><img src="2.png" /></p>
 
-# Solución
+
+### Solución
 
 <p align="center"><img src="3.png" /></p>
 
-# Restulados finales
+
+### Restulados finales
 
 <p align="center"><img src="4.png" /></p>
