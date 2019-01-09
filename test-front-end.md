@@ -1,36 +1,36 @@
-Prueba de código para Frontend
-==================================
-La prueba de código consiste en crear una web-app sencilla con solo front-end, cero back-end. Aqui puedes ver con una propuesta de diseño para la web-app. (https://github.com/ElParking/code-test/blob/master/font-end/sample-designs.md)
+# Prueba de código para Frontend
+La prueba de código consiste en crear una aplicación web sencilla solo front-end, cero back-end. [Aqui puedes ver con una propuesta de diseño](https://github.com/ElParking/code-test/blob/master/font-end/sample-designs.md).
 
-Funcionalidades
-=================
-Lo que queremos hacer es un Trivial de números. Para eso vamos a usar la API de [Numbers API](http://numbersapi.com/).
+## Funcionamiento
+La idea es hacer un trivial de números. Para ello se usará la API de [Numbers API](http://numbersapi.com/).
 
-El funcionamiento básico debe ser el siguiente:
-- Se deben responder a 10 preguntas y cada pregunta será sobre un número, escogido al azar
+El funcionamiento es el siguiente:
+- Se deben responder a 10 preguntas y cada pregunta será sobre un número, escogido al azar.
 - En cada pregunta se presentarán las opciones posibles y el usuario tendrá 30 segundos para responder.
-- Se irá guardando el progreso hasta contestar a las 10 preguntas. El usuario podrá ver las preguntas que ya ha respondido de alguna forma. 
-- Al final, se presentará una página de resumen con el resultado del "trivial".
-- Controlar los diferentes casos de error que se pueden dar. 
-- Testing: Todos las capas deberían tener al menos un test. No hace falta cobertura 100%.
+- Se irá guardando el progreso hasta contestar a las 10 preguntas. El usuario podrá ver las preguntas que ya ha respondido de alguna forma.
+- Al terminar el juego se presentará una página resumen con los resultados obtenidos y una opción para volver a jugar.
 
-"Bonus Points" de funcionalidad
------------------
-- En la página de cada pregunta habrá una barra de progreso en cada pregunta que, segun va pasando el tiempo, irá cambiando de color. 
-- La página debe ser responsive.
-- Usando solo javascript, que se guarde el estado del trivial y, si cierro la página y la vuelvo a abrir, que siga por donde me había quedado. 
-- Proponer un diseño diferente al aportado teniendo en cuenta que debe ser responsive. 
+## Objetivos principales
+- Estructurar correctamente el estado de la aplicación y las transiciones de la misma.
+- Diferenciar claramente las responsabilidades para cada componente.
+- Controlar los diferentes casos de error que se puedan plantear (errores en la API, etc.)
+- Testing: Todos las capas deberían tener al menos un test (unitario, integracion y end to end). No hace falta cobertura 100%.
 
-Tecnologías
-==============
-- CSS: Usar algun tipo de preprocesador de CSS y organizar el código css como si esto fuera el inicio de un proyecto más grande.
-- Javascript: Lo ideal es usar React+Redux como framework base (es en lo que trabajamos en ElParking). Al igual que con el CSS, pensar en esto como si fuera el inicio de algo más grande. 
-- Javascript: Recomendable seguir el nuevo estandard de Javascript ES6
-- Javascript: Recomendable utilizar React 16
-- Te recomendamos que para el ejercio uses el Create React App
+### Extras
+- Añadir una barra de progreso para el tiempo restante de cada pregunta que, segun va pasando el tiempo, vaya cambiando de color.
+- Implementar un diseño responsive.
+- Persistir el estado del juego, de modo que al recargar la página todo continue donde se quedó.
+- Utilizar Redux para gestionar el estado de la aplicación.
+
+## Tecnologías
+- Usa algun tipo de preprocesador de CSS y organiza el código como si esto fuera el inicio de un proyecto más grande.
+- Usa React como framework JS. Al igual que con el CSS, pensar en esto como si fuera el inicio de algo más grande.
+- Valoraremos el uso de la nueva sintaxis ES6
+- Puedes usar [react-create-app](https://facebook.github.io/create-react-app/) para el bootstrap de la aplicación.
+- Para los tests te recomendamos usar [jest](https://jestjs.io/) y [puppeteer](https://pptr.dev/) para los end to end.
 - Sube el código desde el inicio a un repositorio de Github/Bitbucket para que luego podamos ver los commits y la evolución.
+- La aplicación tendrá que estar accesible para que podamos probarla. Para ello te recomendamos usar un servicio como [netlify](https://www.netlify.com/) o [now](https://zeit.co/now) (no es necesario que sean estos).
 
-Notas
-=======
-- Esto es una "prueba de código" y se tratará como tal. Es decir, se valorará el código, no hace falta que funcione todo correctamente. Eso si, si funciona, pues mucho mejor :D. 
+## Notas
+- Esto es una prueba de código y se tratará como tal. Es decir, se valorará el código, no hace falta que funcione todo correctamente. Eso si, si funciona, pues mucho mejor :D.
 - Es una prueba que si se realiza completa requerirá dedicarle bastante tiempo. Se valorará si se realiza completa, pero no es indispensable. Lo que queremos ver es el estilo de código y la manera de resolver los problemas. 
