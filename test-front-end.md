@@ -14,23 +14,25 @@ El funcionamiento es el siguiente:
 - Estructurar correctamente el estado de la aplicación y las transiciones de la misma.
 - Diferenciar claramente las responsabilidades para cada componente.
 - Controlar los diferentes casos de error que se puedan plantear (errores en la API, etc.)
-- Testing: Todos las capas deberían tener al menos un test (unitario, integracion y end to end). No hace falta cobertura 100%.
+- Testing: Todos las capas deberían tener al menos un test (unitario, integracion). No hace falta cobertura 100%.
 
 ### Extras
-- Añadir una barra de progreso para el tiempo restante de cada pregunta que, segun va pasando el tiempo, vaya cambiando de color.
+- Añadir una barra de progreso para el tiempo restante de cada pregunta que, segun va avanzando, cambie de color.
 - Implementar un diseño responsive.
 - Persistir el estado del juego, de modo que al recargar la página todo continue donde se quedó.
 - Utilizar Redux para gestionar el estado de la aplicación.
+- Se valorará el uso de hooks
+- Se valorará el uso de [styled-components](https://styled-components.com/)
 
 ## Tecnologías
-- Usa algun tipo de preprocesador de CSS y organiza el código como si esto fuera el inicio de un proyecto más grande.
-- Usa React como framework JS. Al igual que con el CSS, pensar en esto como si fuera el inicio de algo más grande.
+- Usa React 16 o superior como framework JS. 
+- Organizar el código como si fuera el inicio de algo más grande.
 - Valoraremos el uso de la nueva sintaxis ES6
 - Puedes usar [react-create-app](https://facebook.github.io/create-react-app/) para el bootstrap de la aplicación.
-- Para los tests te recomendamos usar [jest](https://jestjs.io/) y [puppeteer](https://pptr.dev/) para los end to end.
-- Sube el código desde el inicio a un repositorio de Github/Bitbucket para que luego podamos ver los commits y la evolución.
+- Para los tests te recomendamos usar [jest](https://jestjs.io/).
+- Sube el código desde el inicio a un repositorio de Github/Bitbucket/GitLab para que luego podamos ver los commits y la evolución.
 - La aplicación tendrá que estar accesible para que podamos probarla. Para ello te recomendamos usar un servicio como [netlify](https://www.netlify.com/) o [now](https://zeit.co/now) (no es necesario que sean estos).
 
 ## Notas
-- Esto es una prueba de código y se tratará como tal. Es decir, se valorará el código, no hace falta que funcione todo correctamente. Eso si, si funciona, pues mucho mejor :D.
+- Esto es una prueba de código y se tratará como tal. No hace falta que quede perfecto, pero sí que funcione :D.
 - Es una prueba que si se realiza completa requerirá dedicarle bastante tiempo. Se valorará si se realiza completa, pero no es indispensable. Lo que queremos ver es el estilo de código y la manera de resolver los problemas. 
