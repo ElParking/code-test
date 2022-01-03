@@ -1,5 +1,5 @@
 # Prueba de código para Frontend
-La prueba de código consiste en crear una aplicación web sencilla solo front-end, cero back-end. [Aqui puedes ver con una propuesta de diseño](https://github.com/ElParking/code-test/blob/master/font-end/sample-designs.md).
+La prueba de código consiste en crear una aplicación web sencilla solo front-end, cero back-end. [Aqui puedes ver con una propuesta de diseño](https://github.com/ElParking/code-test/blob/master/font-end/sample-designs.md), aunque, por supuesto, puedes hacer la tuya.
 
 ## Funcionamiento
 La idea es hacer un trivial. Para ello se usará la API de [opentdb](https://opentdb.com/).
