@@ -2,13 +2,15 @@
 La prueba de código consiste en crear una aplicación web sencilla solo front-end, cero back-end. [Aqui puedes ver con una propuesta de diseño](https://github.com/ElParking/code-test/blob/master/font-end/sample-designs.md).
 
 ## Funcionamiento
-La idea es hacer un trivial de números. Para ello se usará la API de [Numbers API](http://numbersapi.com/).
+La idea es hacer un trivial. Para ello se usará la API de [opentdb](https://opentdb.com/).
 
 El funcionamiento es el siguiente:
 - Se deben responder a 10 preguntas y cada pregunta será sobre un número, escogido al azar.
 - En cada pregunta se presentarán las opciones posibles y el usuario tendrá 30 segundos para responder.
 - Se irá guardando el progreso hasta contestar a las 10 preguntas. El usuario podrá ver las preguntas que ya ha respondido de alguna forma.
 - Al terminar el juego se presentará una página resumen con los resultados obtenidos y una opción para volver a jugar.
+
+Puedes añadir funcionalidad adicional si lo consideras oportuno.
 
 ## Objetivos principales
 - Estructurar correctamente el estado de la aplicación y las transiciones de la misma.
