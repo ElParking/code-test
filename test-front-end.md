@@ -5,7 +5,7 @@ La prueba de código consiste en crear una aplicación web sencilla solo front-e
 La idea es hacer un trivial. Para ello se usará la API de [opentdb](https://opentdb.com/).
 
 El funcionamiento es el siguiente:
-- Se deben responder a 10 preguntas. En cada pregunta será ordenará las posible respuesta correcta en una posición aleatoria.
+- Se deben responder a 10 preguntas. En cada pregunta la respuesta correcta será ordenará en una posición aleatoria.
 - En cada pregunta se presentarán las opciones posibles y el usuario tendrá 30 segundos para responder.
 - Se irá guardando el progreso hasta contestar a las 10 preguntas. El usuario podrá ver las preguntas que ya ha respondido de alguna forma.
 - Al terminar el juego se presentará una página resumen con los resultados obtenidos y una opción para volver a jugar.
