@@ -9,9 +9,9 @@ La idea es hacer la "Pregunta del día". Para ello se usará la API de [opentdb]
 
 El funcionamiento es el siguiente:
 - La App consistira en 2 pantallas una pantalla de bienvenida y otra con un formulario.
-- Se deben responder a 1 pregunta, esogida aleatoriamente de las que devuelva la API.
+- Se deben responder a 1 pregunta, escogida aleatoriamente de las que devuelva la API.
 - Se presentarán las opciones posibles.
-- Se mostrará si el usuario ha aceptado o no.
+- Se mostrará si el usuario ha acertado o no.
 
 Puedes añadir funcionalidad adicional si lo consideras oportuno.
 
@@ -25,9 +25,7 @@ Puedes añadir funcionalidad adicional si lo consideras oportuno.
 
 ### Extras
 - Mostar un timer de 30 segundos y que determine si ha fallado el usuario.
-- Implementar un diseño responsive.
 - Permitir que el usuario solo juegue una vez al día. Guardar datos en cache del nevegador.
-- Utilizar Redux para gestionar el estado de la aplicación.
 - Se valorará el uso de hooks.
 - Se valorará el uso de [styled-components](https://styled-components.com/)
 
