@@ -20,8 +20,8 @@ Puedes añadir funcionalidad adicional si lo consideras oportuno.
 - Diferenciar claramente las responsabilidades para cada componente.
 - Controlar los diferentes casos de error que se puedan plantear (errores en la API, etc.)
 - Testing: Todos las capas deberían tener al menos un test de los siguientes tipo (no hace falta cobertura 100%):
-   - Unitario -> con [jest](https://jestjs.io/) o similar
-   - Interacción -> con CYPRESS o similar
+   - Unitario -> con [JEST](https://jestjs.io/) o similar
+   - Interacción -> con [CYPRESS](https://www.cypress.io/) o similar
 
 ### Extras
 - Mostar un timer de 30 segundos y que determine si ha fallado el usuario.
