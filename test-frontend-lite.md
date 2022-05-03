@@ -1,6 +1,6 @@
 # Prueba de acceso
 
-![PARKLE](https://github.com/ElParking/code-test/code-test/font-end/626a17d232805.png)
+![PARKLE](https://github.com/ElParking/code-test/blob/8c09ef46ac721d13058997606f27cf37089dd24a/font-end/626a17d232805.png)
 
 La prueba de código consiste en crear una aplicación web sencilla solo front-end, cero back-end.
 
