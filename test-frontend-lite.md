@@ -1,4 +1,6 @@
-# Prueba de acceso: PARKLE
+# Prueba de acceso
+
+![PARKLE](https://github.com/ElParking/code-test/code-test/font-end/626a17d232805.png)
 
 La prueba de código consiste en crear una aplicación web sencilla solo front-end, cero back-end.
 
