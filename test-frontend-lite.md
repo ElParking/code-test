@@ -1,4 +1,4 @@
-# Prueba de acceso: PARLRKLE
+# Prueba de acceso: PARKLE
 
 La prueba de código consiste en crear una aplicación web sencilla solo front-end, cero back-end.
 
