@@ -22,9 +22,7 @@ Puedes añadir funcionalidad adicional si lo consideras oportuno.
 - Estructurar correctamente el estado de la aplicación, las rutas y las transiciones de la misma.
 - Diferenciar claramente las responsabilidades para cada componente.
 - Controlar los diferentes casos de error que se puedan plantear (errores en la API, etc.)
-- Testing: Todos las capas deberían tener al menos un test de los siguientes tipo (no hace falta cobertura 100%):
-   - Unitario -> con [JEST](https://jestjs.io/) o similar
-
+- Testing: Sería necesario hacer algun test de cada capa de la aplicación usando Jest y React Testing Library. No hace falta el 100% coverage. 
 ### Extras
 - Buena UI/UX y responsive
 - Mostar un timer de 120 segundos y que determine si ha fallado el usuario.
