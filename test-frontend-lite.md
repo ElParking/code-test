@@ -24,14 +24,14 @@ Puedes añadir funcionalidad adicional si lo consideras oportuno.
 - Controlar los diferentes casos de error que se puedan plantear (errores en la API, etc.)
 - Testing: Todos las capas deberían tener al menos un test de los siguientes tipo (no hace falta cobertura 100%):
    - Unitario -> con [JEST](https://jestjs.io/) o similar
-   - Interacción -> con [CYPRESS](https://www.cypress.io/) o similar
 
 ### Extras
-- Diseño responsive
+- Buena UI/UX y responsive
 - Mostar un timer de 120 segundos y que determine si ha fallado el usuario.
 - Permitir que el usuario solo juegue una vez al día.
 - Se valorará el uso de hooks.
 - Se valorará el uso de [styled-components](https://styled-components.com/)
+- Se valorará que la aplicación sea accesible. Se pueden usar herramientas para apoyarnos con esto. Un ejemplo son [Lighthose](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es) o [Axe DEv Tools](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=es-419)
 
 ## Tecnologías
 - Usa React 16 o superior como framework JS. 
